@@ -7,7 +7,8 @@ $(document).ready(function() { // do this when the document is loaded
 	$("#contactlist").hide();
 });
 
-$("#button_id").click(function() { // when "button_id" is clicked
-	$("#element").show(); // show element
-	$("#other_element").hide();	// hide other element
+$("#dialerbutton").click(function() { // when "button_id" is clicked
+	$("#dialer").show(); // show element
+	$("#contactlist").hide();	// hide other element
+	$("#addcontact").hide();
 });
