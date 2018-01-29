@@ -12,3 +12,17 @@ $("#dialerbutton").click(function() { // when "button_id" is clicked
 	$("#contactlist").hide();	// hide other element
 	$("#addcontact").hide();
 });
+
+$("#contactlistbutton").click(function() { // when "button_id" is clicked
+	$("#contactlist").show(); // show element
+	$("#dialer").hide();	// hide other element
+	$("#addcontact").hide();
+});
+
+$("#addcontactbutton").click(function() { // when "button_id" is clicked
+	$("#addcontact").show(); // show element
+	$("#dialer").hide();	// hide other element
+	$("#contactlist").hide();
+});
+
+
