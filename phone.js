@@ -2,8 +2,8 @@
 
 
 $(document).ready(function() { // do this when the document is loaded
-	$("#dialer").show(); // show the element with ID "element"
-	$("#addcontact").hide(); // hide the element with ID "otherElement"
+	$("#addcontact").show(); // show the element with ID "element"
+	$("#dialer").hide(); // hide the element with ID "otherElement"
 	$("#contactlist").hide();
 });
 
