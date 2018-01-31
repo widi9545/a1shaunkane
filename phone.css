@@ -1,4 +1,7 @@
 /* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+
+.buttons{width:60px; height: 40px; background: grey; color: white; margin: 20px;}
+
 .contactbuttons { width: 40px; height: 40px; background: blue; color: white; margin: 20px; }
 
 
